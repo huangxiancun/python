@@ -1,0 +1,118 @@
+{
+  "available_data": [
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "price",
+      "cn": "股价",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "open",
+      "cn": "开盘价",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "high",
+      "cn": "最高价",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "low",
+      "cn": "最底价",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "pb",
+      "cn": "市净率",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "pelfy",
+      "cn": "市盈率",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "upper_limit",
+      "cn": "涨停价",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "upper_limit",
+      "cn": "跌停价",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "amplitude",
+      "cn": "振幅",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "totmktcap",
+      "cn": "总市值",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "crps",
+      "cn": "每股资本公积金",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "epsbasic",
+      "cn": "每股收益",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "upps",
+      "cn": "每股未分配利润",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "roediluted",
+      "cn": "净资产收益率",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "AllTicks",
+      "attribute_name": "napsnewp",
+      "cn": "每股净资产",
+      "is_foreign": 0
+    },
+    {
+      "table_name": "Stock",
+      "attribute_name": "comp_name",
+      "cn": "发行公司",
+      "is_foreign": {"table_name": "Company", "attribute_name":"comp_name"}
+    },
+    {
+      "table_name": "Stock",
+      "attribute_name": "exchange",
+      "cn": "交易所",
+      "is_foreign": {"table_name": "ExchangeType", "attribute_name":"exchange"}
+    },
+    {
+      "table_name": "Stock",
+      "attribute_name": "board",
+      "cn": "所属板块",
+      "is_foreign": {"table_name": "Board", "attribute_name":"board"}
+    },
+    {
+      "table_name": "Stock",
+      "attribute_name": "area",
+      "cn": "地域",
+      "is_foreign": {"table_name": "Area", "attribute_name":"area"}
+    }
+  ]
+}
